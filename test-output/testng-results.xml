@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T12:05:38 BDT" name="Default suite" finished-at="2024-12-14T12:06:06 BDT" duration-ms="27478">
+  <suite started-at="2024-12-14T12:53:29 BDT" name="Default suite" finished-at="2024-12-14T12:53:56 BDT" duration-ms="27185">
     <groups>
     </groups>
-    <test started-at="2024-12-14T12:05:38 BDT" name="Default test" finished-at="2024-12-14T12:06:06 BDT" duration-ms="27478">
+    <test started-at="2024-12-14T12:53:29 BDT" name="Default test" finished-at="2024-12-14T12:53:56 BDT" duration-ms="27185">
       <class name="AppTest.AppTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:05:38 BDT" name="LaunchApplication" finished-at="2024-12-14T12:05:48 BDT" duration-ms="9824" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:53:29 BDT" name="LaunchApplication" finished-at="2024-12-14T12:53:37 BDT" duration-ms="7599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="PopupMenu()[pri:1, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:05:48 BDT" name="PopupMenu" description="Navigate to Customa Adapter and perform Long press" finished-at="2024-12-14T12:06:02 BDT" duration-ms="13943" status="PASS">
+        <test-method signature="PopupMenu()[pri:1, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:53:37 BDT" name="PopupMenu" description="Navigate to Customa Adapter and perform Long press" finished-at="2024-12-14T12:53:53 BDT" duration-ms="15695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PopupMenu -->
-        <test-method signature="testDragAndDrop()[pri:2, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:06:02 BDT" name="testDragAndDrop" description="Perform Drag and Drop" finished-at="2024-12-14T12:06:05 BDT" duration-ms="3203" status="PASS">
+        <test-method signature="testDragAndDrop()[pri:2, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:53:53 BDT" name="testDragAndDrop" description="Perform Drag and Drop" finished-at="2024-12-14T12:53:56 BDT" duration-ms="3461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:06:05 BDT" name="tearDown" finished-at="2024-12-14T12:06:06 BDT" duration-ms="456" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppTest.AppTest@449a4f23]" started-at="2024-12-14T12:53:56 BDT" name="tearDown" finished-at="2024-12-14T12:53:56 BDT" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
