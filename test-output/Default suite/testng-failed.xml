@@ -5,9 +5,10 @@
     <classes>
       <class name="AppTest.AppTest">
         <methods>
+          <include name="tearDown"/>
+          <include name="PopupMenu"/>
           <include name="testDragAndDrop"/>
           <include name="LaunchApplication"/>
-          <include name="terminateServer"/>
         </methods>
       </class> <!-- AppTest.AppTest -->
     </classes>

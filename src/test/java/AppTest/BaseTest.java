@@ -28,7 +28,7 @@ public class BaseTest {
 	String appiumIPAddress= "127.0.0.1";
 	int Port = 4723;
 	String DeviceName = "Pixel7";
-	String AbsolutePathToApk= "D:\\Selenium Project\\APIDemo\\src\\test\\java\\resource\\ApiDemos-debug.apk";
+	String AbsolutePathToApk= System.getProperty("user.dir")+"\\src\\test\\java\\resource\\ApiDemos-debug.apk";
 	String AppiumServerURL = "http://127.0.0.1:4723";
 	
 	@BeforeClass
