@@ -3,7 +3,7 @@
 This is an Appium-based mobile automation framework for testing the Android API Demos application, demonstrating mobile test automation using Java, Appium, and TestNG.
 ## Prerequisites
 - Java JDK 11 or higher
-- Node.js and npm
+- Node.js (v14 or higher) and npm
 - Appium Server
 - Android SDK
 - Android Studio
@@ -52,7 +52,19 @@ The project follows these key principles:
 - **Page Classes:** Represent individual app screens
 - **Test Classes:** Define test scenarios
 - **Utility Classes:** Provide supporting functions
-
+## Challenges and Solutions
+- #### Appium Server Connection:
+    - **Problem**: Appium server not responding.
+    - **Solution**: Ensured server logs were monitored and restarted the server if necessary.
+- #### Dynamic Web Elements
+    - **Problem**: Inconsistent element loading times
+    - **Solution**: Implemented explicit and implicit waits
+- #### Scrolling and Gestures:
+    - **Problem**: Handling dynamic scrolling to locate elements.
+    - **Solution**:  Used Appium's scrollTo or UiScrollable functions to ensure reliable navigation within the app.
+- #### Drag-and-Drop Accuracy:
+    - **Problem**: Drag-and-drop gestures were not accurate in some cases.
+    - **Solution**: Used Appium's JavascriptExecutor with the mobile: dragGesture command for reliable drag-and-drop actions. By dynamically retrieving the elementId and specifying precise endX and endY coordinates, the drag-and-drop operations were executed successfully.
 ### Logs
 ```
 [Appium][0m Welcome to Appium v2.13.1
